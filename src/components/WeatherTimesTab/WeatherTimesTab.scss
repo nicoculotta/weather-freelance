@@ -1,0 +1,14 @@
+.weatherTimesTab__wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 7px;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.weatherTimesTab__hour {
+  text-align: center;
+  font-size: $text-xs;
+  color: $color-black-40;
+  min-width: 73px;
+}

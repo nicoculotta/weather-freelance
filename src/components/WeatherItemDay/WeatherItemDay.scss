@@ -1,0 +1,25 @@
+.weatherItemDay__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-out;
+  &:hover {
+    background-color: $color-black-10;
+  }
+  min-width: 73px;
+}
+.weatherItemDay__icon {
+  width: 56px;
+  aspect-ratio: 1;
+}
+
+.weatherItemDay__degree {
+  font-size: $text-sm;
+}
+
+.weatherItemDay__degree--grey {
+  color: $color-black-40;
+}

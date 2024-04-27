@@ -1,0 +1,48 @@
+.weatherCurrentDay__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.weatherCurrentDay__container--left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.weatherCurrentDay__degree {
+  display: flex;
+  & p {
+    line-height: 1;
+    font-size: $text-xl;
+  }
+  & span {
+    color: $color-black-40;
+  }
+}
+
+.weatherCurrentDay__list {
+  list-style: none;
+  color: $color-black-60;
+  & li p {
+    font-size: $text-sm;
+  }
+}
+
+.weatherCurrentDay__container--right {
+  text-align: right;
+  & h3 {
+    font-size: $text-lg;
+    font-weight: 400;
+  }
+  & p {
+    color: $color-black-60;
+  }
+
+  @media (max-width: 480px) {
+    text-align: left;
+  }
+}

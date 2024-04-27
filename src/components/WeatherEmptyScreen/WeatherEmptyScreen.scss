@@ -1,0 +1,12 @@
+.weatherEmptyScreen__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-black-10;
+  border-radius: 16px;
+  width: 100%;
+  min-height: 106px;
+  color: $color-black-40;
+  padding: 0 16px;
+  text-align: center;
+}

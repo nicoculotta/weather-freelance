@@ -1,0 +1,16 @@
+.app__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 652px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+}
+
+.app__containerTabs {
+  overflow-x: auto;
+}

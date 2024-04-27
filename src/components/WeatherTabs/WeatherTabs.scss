@@ -1,0 +1,23 @@
+.weatherTabs__tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 12px;
+  > *:not(:last-child)::after {
+    content: "";
+    border-right: 1px solid $color-black-20;
+    position: relative;
+    left: 12px;
+  }
+}
+
+.tab {
+  padding: 6px 4px 8px;
+  background-color: transparent;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #fdd663;
+  }
+}

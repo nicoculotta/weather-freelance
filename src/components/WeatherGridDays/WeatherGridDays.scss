@@ -1,0 +1,6 @@
+.weatherGridDays__wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 7px;
+  width: 100%;
+}
